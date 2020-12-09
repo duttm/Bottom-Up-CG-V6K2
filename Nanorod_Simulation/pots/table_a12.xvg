@@ -1,4 +1,4 @@
-#Angles(degree)      Energy(kJ/mol)       Force(kJ/mol/degree)
+###Angle(degree)      Energy(kJ/mol)       Force(kJ/mol/degree)
 0.0000000000e+00   1.0540042451e+02 0.0000000000e+00
 5.0000000000e-02   1.0530270091e+02 1.9544720000e+00
 1.0000000000e-01   1.0520497731e+02 1.9544720000e+00

@@ -1,4 +1,4 @@
-#Distance(nm)      Energy(kJ/mol)       Force(kJ/mol/nm)
+##Dihedral Angle(degree)      Energy(kJ/mol)       Force(kJ/mol/degree)
 -1.8000000000e+02   1.2488733758e+01 1.0067057280e+02
 -1.7995000000e+02   1.2474074868e+01 2.9320500000e-01
 -1.7990000000e+02   1.2459413258e+01 2.9325870000e-01
