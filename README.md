@@ -3,26 +3,26 @@
 
 This code has been developed by Akash Banerjee in the Dr. Meenakshi Dutt laboratory at Rutgers University. 
 
-Project Duration: September 2018 to December 2020
+**Project Duration**: September 2018 to December 2020
 
-Modeled System: Self-assemble of V6K2 peptides into a Nanorod. 
+**Modeled System**: Self-assemble of V6K2 peptides into a Nanorod. 
 
-Approach: Bottom-up Coarse-Graining (CG) - where all potentials are developed by using all atom (AA) simulations as reference. 
+**Approach**: Bottom-up Coarse-Graining (CG) - where all potentials are developed by using all atom (AA) simulations as reference. 
 
-General Method for CG model development: The Iterative Boltzmann Inversion (IBI) and Force Matching (FM) methods are applied to resolve CG potentials. 
+**General Method for CG model development**: The Iterative Boltzmann Inversion (IBI) and Force Matching (FM) methods are applied to resolve CG potentials. 
 
-Software packages used for implementation: 
+## Software packages used for implementation: 
 
 1. GROMACS for Molecular Dynamics Simulations (AA and CG). [http://www.gromacs.org/]
 2. VOTCA for CG model building and development of CG potentials. [https://www.votca.org/csg-manual/index.html]
 
-AA Models and Force Fields:
+## AA Models and Force Fields:
 
 1. The Amber99SB force field is used to run all AA simulations. [https://ambermd.org/AmberModels.php]
 2. The Amber LEaP tool is used to build the initial AA peptide configuration. [http://ambermd.org/tutorials/pengfei/index.htm]
 3. The SPC/E water model is used to solvate peptide systems. 
 
-Instructions for Running Self-Assembly Simulations: 
+## Instructions for Running Self-Assembly Simulations: 
 
 1. Go to Nanorod_Simulations ->simulation.bash
 2. You will need a GROAMCS executable to run this simulation. Please enter the path for executable in the appropriate location. 
@@ -32,13 +32,13 @@ Instructions for Running Self-Assembly Simulations:
 6. In VMD, you will be able to see that the peptides are beginning to self-assemble into a nanorod. 
 6. In order to get stable nanorods, please run the simulation for an additional 4 ns. (This can be done by changing the number of MD steps in the grompp_CG.mdp file)
 
-Additional Notes 
+### Additional Notes 
 
 1. All potentials are located in Nanorod_Simulations->Pots
 2. For some versions of GROMACS, you may need to change certain features in the MDP file. 
 3. You can hike the timestep after initial equilibration for faster self-assembly. 
 
-Compilation Notes: 
+### Compilation Notes: 
 
 We have reproduced our results (formation of nanorod+ associated analysis) in following computational resources: 
 
